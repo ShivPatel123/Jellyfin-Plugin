@@ -26,7 +26,7 @@ public class Plugin : BasePlugin<PluginConfiguration>, IHasWebPages
     }
 
     /// <inheritdoc />
-    public override string Name => "Template";
+    public override string Name => "JellyBrowse";
 
     /// <inheritdoc />
     public override Guid Id => Guid.Parse("5cbe03e3-6646-4973-b4d2-7ffc3ba0ac27");
